@@ -319,7 +319,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/terra",
-        "tx_page": "https://atomscan.com/terra/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/terra/transactions/${txHash}",
+        "account_page": "https://atomscan.com/terra/accounts/${accountAddress}"
       },
       {
         "kind": "finder",
@@ -570,7 +571,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/decentr",
-        "tx_page": "https://atomscan.com/decentr/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/decentr/transactions/${txHash}",
+        "account_page": "https://atomscan.com/decentr/accounts/${accountAddress}"
       },
       {
         "kind": "Nodine.ID",
@@ -835,6 +837,12 @@
         "kind": "ping.pub",
         "url": "https://explorer.unification.chainmasters.ninja/unification",
         "tx_page": "https://explorer.unification.chainmasters.ninja/unification/tx/${txHash}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/unification",
+        "tx_page": "https://atomscan.com/unification/transactions/${txHash}",
+        "account_page": "https://atomscan.com/unification/accounts/${accountAddress}"
       }
     ]
   },
@@ -1261,7 +1269,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/cudos",
-        "tx_page": "https://atomscan.com/cudos/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/cudos/transactions/${txHash}",
+        "account_page": "https://atomscan.com/cudos/accounts/${accountAddress}"
       }
     ]
   },
@@ -1366,6 +1375,11 @@
           "id": "1b6a3dd166b8814f3064444206c2194a92dea62d",
           "address": "seeds.whispernode.com:20756",
           "provider": "WhisperNode🤐"
+        },
+        {
+          "id": "27b6d74c8408e033e2e5a9e966a0d15782e33596",
+          "address": "seeds.nethernode.xyz:20756",
+          "provider": "carbonZERO🌲"
         }
       ],
       "persistent_peers": [
@@ -1483,6 +1497,12 @@
         "url": "https://explorer.silknodes.io/migaloo",
         "tx_page": "https://explorer.silknodes.io/migaloo/tx/${txHash}",
         "account_page": "https://explorer.silknodes.io/migaloo/account/${accountAddress}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/migaloo",
+        "tx_page": "https://atomscan.com/migaloo/transactions/${txHash}",
+        "account_page": "https://atomscan.com/migaloo/accounts/${accountAddress}"
       }
     ]
   },
@@ -1669,7 +1689,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/sifchain",
-        "tx_page": "https://atomscan.com/sifchain/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/sifchain/transactions/${txHash}",
+        "account_page": "https://atomscan.com/sifchain/accounts/${accountAddress}"
       }
     ]
   },
@@ -1776,7 +1797,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/idep",
-        "tx_page": "https://atomscan.com/idep/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/idep/transactions/${txHash}",
+        "account_page": "https://atomscan.com/idep/accounts/${accountAddress}"
       },
       {
         "kind": "TC Network",
@@ -2239,7 +2261,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/meme",
-        "tx_page": "https://atomscan.com/meme/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/meme/transactions/${txHash}",
+        "account_page": "https://atomscan.com/meme/accounts/${accountAddress}"
       },
       {
         "kind": "Brochain",
@@ -2324,6 +2347,12 @@
         "kind": "Zenscan.io",
         "url": "https://www.chronic.zenscan.io",
         "tx_page": ""
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/chronicnetwork",
+        "tx_page": "https://atomscan.com/chronicnetwork/transactions/${txHash}",
+        "account_page": "https://atomscan.com/chronicnetwork/accounts/${accountAddress}"
       }
     ]
   },
@@ -3416,7 +3445,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/umee",
-        "tx_page": "https://atomscan.com/umee/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/umee/transactions/${txHash}",
+        "account_page": "https://atomscan.com/umee/accounts/${accountAddress}"
       }
     ]
   },
@@ -3786,6 +3816,12 @@
         "kind": "ping.pub",
         "url": "https://ping.pub/carbon",
         "tx_page": "https://ping.pub/carbon/tx/${txHash}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/carbon",
+        "tx_page": "https://atomscan.com/carbon/transactions/${txHash}",
+        "account_page": "https://atomscan.com/carbon/accounts/${accountAddress}"
       }
     ]
   },
@@ -4050,7 +4086,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/stargaze",
-        "tx_page": "https://atomscan.com/stargaze/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/stargaze/transactions/${txHash}",
+        "account_page": "https://atomscan.com/stargaze/accounts/${accountAddress}"
       }
     ]
   },
@@ -4344,7 +4381,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/band-protocol",
-        "tx_page": "https://atomscan.com/band-protocol/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/band-protocol/transactions/${txHash}",
+        "account_page": "https://atomscan.com/band-protocol/accounts/${accountAddress}"
       },
       {
         "kind": "bigdipper",
@@ -4444,9 +4482,10 @@
         "tx_page": "https://exp.utsa.tech/genesis/tx/${txHash}"
       },
       {
-        "kind": "ATOMScan",
+        "kind": "atomscan",
         "url": "https://atomscan.com/genesisl1",
-        "tx_page": "https://atomscan.com/genesisl1/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/genesisl1/transactions/${txHash}",
+        "account_page": "https://atomscan.com/genesisl1/accounts/${accountAddress}"
       }
     ]
   },
@@ -4557,6 +4596,11 @@
           "id": "243d93ff2f663860f118fa32e2122fbba7f00a92",
           "address": "seeds.whispernode.com:13156",
           "provider": "WhisperNode🤐"
+        },
+        {
+          "id": "27b6d74c8408e033e2e5a9e966a0d15782e33596",
+          "address": "seeds.nethernode.xyz:13156",
+          "provider": "carbonZERO🌲"
         }
       ],
       "persistent_peers": [
@@ -4693,7 +4737,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/comdex",
-        "tx_page": "https://atomscan.com/comdex/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/comdex/transactions/${txHash}",
+        "account_page": "https://atomscan.com/comdex/accounts/${accountAddress}"
       },
       {
         "kind": "bigdipper",
@@ -4884,6 +4929,11 @@
           "id": "3c5b1a13f810507b9ef1240372b3cbc9bd90da26",
           "address": "seeds.whispernode.com:12956",
           "provider": "WhisperNode🤐"
+        },
+        {
+          "id": "27b6d74c8408e033e2e5a9e966a0d15782e33596",
+          "address": "seeds.nethernode.xyz:12956",
+          "provider": "carbonZERO🌲"
         }
       ],
       "persistent_peers": [
@@ -5030,7 +5080,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/chihuahua",
-        "tx_page": "https://atomscan.com/chihuahua/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/chihuahua/transactions/${txHash}",
+        "account_page": "https://atomscan.com/chihuahua/accounts/${accountAddress}"
       }
     ]
   },
@@ -5180,6 +5231,12 @@
         "kind": "NODEXPLORER",
         "url": "https://explorer.nodexcapital.com/point",
         "tx_page": "https://explorer.nodexcapital.com/point/tx/${txHash}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/point",
+        "tx_page": "https://atomscan.com/point/transactions/${txHash}",
+        "account_page": "https://atomscan.com/point/accounts/${accountAddress}"
       }
     ]
   },
@@ -5430,7 +5487,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/akash",
-        "tx_page": "https://atomscan.com/akash/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/akash/transactions/${txHash}",
+        "account_page": "https://atomscan.com/akash/accounts/${accountAddress}"
       },
       {
         "kind": "cloudmos",
@@ -5568,6 +5626,11 @@
           "id": "95d0377592a657d4c0816d9845e11d659db75d5b",
           "address": "seeds.whispernode.com:12256",
           "provider": "WhisperNode🤐"
+        },
+        {
+          "id": "27b6d74c8408e033e2e5a9e966a0d15782e33596",
+          "address": "seeds.nethernode.xyz:12256",
+          "provider": "carbonZERO🌲"
         }
       ],
       "persistent_peers": [
@@ -5785,6 +5848,12 @@
         "url": "https://bigdipper.live/stride",
         "tx_page": "https://bigdipper.live/stride/transactions/${txHash}",
         "account_page": "https://bigdipper.live/stride/accounts/${accountAddress}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/stride",
+        "tx_page": "https://atomscan.com/stride/transactions/${txHash}",
+        "account_page": "https://atomscan.com/stride/accounts/${accountAddress}"
       }
     ],
     "logo_URIs": {
@@ -7856,6 +7925,13 @@
         {
           "denom": "tkyve",
           "fixed_min_gas_price": 0.02
+        }
+      ]
+    },
+    "staking": {
+      "staking_tokens": [
+        {
+          "denom": "tkyve"
         }
       ]
     },
@@ -12433,7 +12509,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com",
-        "tx_page": "https://atomscan.com/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/transactions/${txHash}",
+        "account_page": "https://atomscan.com/accounts/${accountAddress}"
       },
       {
         "kind": "unichain",
@@ -12743,7 +12820,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/kava",
-        "tx_page": "https://atomscan.com/kava/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/kava/transactions/${txHash}",
+        "account_page": "https://atomscan.com/kava/accounts/${accountAddress}"
       }
     ]
   },
@@ -12865,7 +12943,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/starname",
-        "tx_page": "https://atomscan.com/starname/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/starname/transactions/${txHash}",
+        "account_page": "https://atomscan.com/starname/accounts/${accountAddress}"
       }
     ]
   },
@@ -13152,7 +13231,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/axelar",
-        "tx_page": "https://atomscan.com/axelar/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/axelar/transactions/${txHash}",
+        "account_page": "https://atomscan.com/axelar/accounts/${accountAddress}"
       }
     ]
   },
@@ -13379,6 +13459,12 @@
         "kind": "NODEXPLORER",
         "url": "https://explorer.nodexcapital.com/c4e",
         "tx_page": "https://explorer.nodexcapital.com/c4e/transactions/${txHash}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/chain4energy",
+        "tx_page": "https://atomscan.com/chain4energy/transactions/${txHash}",
+        "account_page": "https://atomscan.com/chain4energy/accounts/${accountAddress}"
       }
     ]
   },
@@ -13944,6 +14030,12 @@
         "url": "https://explorer.nodexcapital.com/sommelier",
         "tx_page": "https://explorer.nodexcapital.com/sommelier/tx/${txHash}",
         "account_page": "https://explorer.nodexcapital.com/sommelier/account/${accountAddress}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/sommelier",
+        "tx_page": "https://atomscan.com/sommelier/transactions/${txHash}",
+        "account_page": "https://atomscan.com/sommelier/accounts/${accountAddress}"
       }
     ]
   },
@@ -14100,19 +14192,20 @@
     },
     "codebase": {
       "git_repo": "https://github.com/cryptonetD/lumenx",
-      "recommended_version": "v0.1.0",
+      "recommended_version": "v1.4.0",
       "compatible_versions": [
-        "v0.1.0"
+        "v1.4.0"
       ],
       "genesis": {
         "genesis_url": "https://raw.githubusercontent.com/cryptonetD/lumenx/main/config/genesis.json"
       },
       "versions": [
         {
-          "name": "v0.1.0",
-          "recommended_version": "v0.1.0",
+          "name": "v1.4.0",
+          "tag": "v1.4.0",
+          "recommended_version": "v1.4.0",
           "compatible_versions": [
-            "v0.1.0"
+            "v1.4.0"
           ]
         }
       ]
@@ -14227,6 +14320,12 @@
         "kind": "Nodine.ID",
         "url": "https://explorer.co.id/lumenx",
         "tx_page": "https://explorer.co.id/lumenx/tx/${txHash}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/lumenx",
+        "tx_page": "https://atomscan.com/lumenx/transactions/${txHash}",
+        "account_page": "https://atomscan.com/lumenx/accounts/${accountAddress}"
       }
     ]
   },
@@ -14384,7 +14483,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/ixo",
-        "tx_page": "https://atomscan.com/ixo/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/ixo/transactions/${txHash}",
+        "account_page": "https://atomscan.com/ixo/accounts/${accountAddress}"
       },
       {
         "kind": "Mintscan",
@@ -14627,12 +14727,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/echelon",
-        "tx_page": "https://atomscan.com/echelon/tx/${txHash}"
-      },
-      {
-        "kind": "atomscan",
-        "url": "https://atomscan.com/echelon",
-        "tx_page": "https://atomscan.com/echelon/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/echelon/transactions/${txHash}",
+        "account_page": "https://atomscan.com/echelon/accounts/${accountAddress}"
       }
     ]
   },
@@ -14925,7 +15021,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/ki-chain",
-        "tx_page": "https://atomscan.com/ki-chain/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/ki-chain/transactions/${txHash}",
+        "account_page": "https://atomscan.com/ki-chain/accounts/${accountAddress}"
       }
     ]
   },
@@ -15050,7 +15147,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/bostrom",
-        "tx_page": "https://atomscan.com/bostrom/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/bostrom/transactions/${txHash}",
+        "account_page": "https://atomscan.com/bostrom/accounts/${accountAddress}"
       }
     ]
   },
@@ -15105,6 +15203,11 @@
           "id": "10beadbcd4bc5fef8a1f5f57353bdb8646f7a554",
           "address": "seeds.whispernode.com:26656",
           "provider": "WhisperNode🤐"
+        },
+        {
+          "id": "27b6d74c8408e033e2e5a9e966a0d15782e33596",
+          "address": "seeds.nethernode.xyz:12756",
+          "provider": "carbonZERO🌲"
         }
       ],
       "persistent_peers": []
@@ -15365,7 +15468,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/bitsong",
-        "tx_page": "https://atomscan.com/bitsong/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/bitsong/transactions/${txHash}",
+        "account_page": "https://atomscan.com/bitsong/accounts/${accountAddress}"
       }
     ]
   },
@@ -15605,7 +15709,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/fetchai",
-        "tx_page": "https://atomscan.com/fetchai/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/fetchai/transactions/${txHash}",
+        "account_page": "https://atomscan.com/fetchai/accounts/${accountAddress}"
       },
       {
         "kind": "bigdipper",
@@ -15687,6 +15792,11 @@
           "id": "990557213003ab234cc03307d02688c30357fed6",
           "address": "seeds.whispernode.com:14656",
           "provider": "WhisperNode🤐"
+        },
+        {
+          "id": "27b6d74c8408e033e2e5a9e966a0d15782e33596",
+          "address": "seeds.nethernode.xyz:14656",
+          "provider": "carbonZERO🌲"
         }
       ],
       "persistent_peers": [
@@ -15879,7 +15989,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/assetmantle",
-        "tx_page": "https://atomscan.com/assetmantle/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/assetmantle/transactions/${txHash}",
+        "account_page": "https://atomscan.com/assetmantle/accounts/${accountAddress}"
       },
       {
         "kind": "bigdipper",
@@ -16058,6 +16169,12 @@
         "url": "https://www.mintscan.io/sentinel",
         "tx_page": "https://www.mintscan.io/sentinel/txs/${txHash}",
         "account_page": "https://www.mintscan.io/sentinel/account/${accountAddress}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/sentinel",
+        "tx_page": "https://atomscan.com/sentinel/transactions/${txHash}",
+        "account_page": "https://atomscan.com/sentinel/accounts/${accountAddress}"
       }
     ]
   },
@@ -16462,7 +16579,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/osmosis",
-        "tx_page": "https://atomscan.com/osmosis/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/osmosis/transactions/${txHash}",
+        "account_page": "https://atomscan.com/osmosis/accounts/${accountAddress}"
       },
       {
         "kind": "bigdipper",
@@ -16774,7 +16892,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/bitcanna",
-        "tx_page": "https://atomscan.com/bitcanna/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/bitcanna/transactions/${txHash}",
+        "account_page": "https://atomscan.com/bitcanna/accounts/${accountAddress}"
       }
     ]
   },
@@ -17152,7 +17271,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/omniflixhub",
-        "tx_page": "https://atomscan.com/omniflixhub/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/omniflixhub/transactions/${txHash}",
+        "account_page": "https://atomscan.com/omniflixhub/accounts/${accountAddress}"
       }
     ]
   },
@@ -17310,7 +17430,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/rizon",
-        "tx_page": "https://atomscan.com/rizon/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/rizon/transactions/${txHash}",
+        "account_page": "https://atomscan.com/rizon/accounts/${accountAddress}"
       },
       {
         "kind": "bigdipper",
@@ -17954,7 +18075,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/provenance",
-        "tx_page": "https://atomscan.com/provenance/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/provenance/transactions/${txHash}",
+        "account_page": "https://atomscan.com/provenance/accounts/${accountAddress}"
       },
       {
         "kind": "bigdipper",
@@ -18299,6 +18421,11 @@
           "id": "e4f7c3181d0028209c664bfd4c259f2c4d947491",
           "address": "seeds.whispernode.com:13456",
           "provider": "WhisperNode🤐"
+        },
+        {
+          "id": "27b6d74c8408e033e2e5a9e966a0d15782e33596",
+          "address": "seeds.nethernode.xyz:13456",
+          "provider": "carbonZERO🌲"
         }
       ],
       "persistent_peers": [
@@ -18627,7 +18754,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/evmos",
-        "tx_page": "https://atomscan.com/evmos/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/evmos/transactions/${txHash}",
+        "account_page": "https://atomscan.com/evmos/accounts/${accountAddress}"
       },
       {
         "kind": "tcnetwork",
@@ -19270,6 +19398,12 @@
         "kind": "NODEXPLORER",
         "url": "https://explorer.nodexcapital.com/planq",
         "tx_page": "https://explorer.nodexcapital.com/planq/tx/${txHash}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/planq",
+        "tx_page": "https://atomscan.com/planq/transactions/${txHash}",
+        "account_page": "https://atomscan.com/planq/accounts/${accountAddress}"
       }
     ]
   },
@@ -19852,7 +19986,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/persistence",
-        "tx_page": "https://atomscan.com/persistence/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/persistence/transactions/${txHash}",
+        "account_page": "https://atomscan.com/persistence/accounts/${accountAddress}"
       },
       {
         "kind": "bigdipper",
@@ -20102,7 +20237,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/gravity-bridge",
-        "tx_page": "https://atomscan.com/gravity-bridge/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/gravity-bridge/transactions/${txHash}",
+        "account_page": "https://atomscan.com/gravity-bridge/accounts/${accountAddress}"
       },
       {
         "kind": "TC Network",
@@ -20175,6 +20311,11 @@
           "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
           "address": "canto-mainnet-seed.autostake.com:27156",
           "provider": "AutoStake 🛡️ Slash Protected"
+        },
+        {
+          "id": "27b6d74c8408e033e2e5a9e966a0d15782e33596",
+          "address": "seeds.nethernode.xyz:15556",
+          "provider": "carbonZERO🌲"
         }
       ],
       "persistent_peers": [
@@ -20602,7 +20743,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/kujira",
-        "tx_page": "https://atomscan.com/kujira/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/kujira/transactions/${txHash}",
+        "account_page": "https://atomscan.com/kujira/accounts/${accountAddress}"
       },
       {
         "kind": "Nodeist Explorer",
@@ -20795,7 +20937,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/crescent",
-        "tx_page": "https://atomscan.com/crescent/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/crescent/transactions/${txHash}",
+        "account_page": "https://atomscan.com/crescent/accounts/${accountAddress}"
       },
       {
         "kind": "bigdipper",
@@ -21012,6 +21155,12 @@
         "kind": "NodeStake",
         "url": "https://explorer.nodestake.top/lambda",
         "tx_page": "https://explorer.nodestake.top/lambda/txs/${txHash}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/lambda",
+        "tx_page": "https://atomscan.com/lambda/transactions/${txHash}",
+        "account_page": "https://atomscan.com/lambda/accounts/${accountAddress}"
       }
     ]
   },
@@ -21193,7 +21342,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/likecoin",
-        "tx_page": "https://atomscan.com/likecoin/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/likecoin/transactions/${txHash}",
+        "account_page": "https://atomscan.com/likecoin/accounts/${accountAddress}"
       }
     ],
     "logo_URIs": {
@@ -21411,7 +21561,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/secret-network",
-        "tx_page": "https://atomscan.com/secret-network/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/secret-network/transactions/${txHash}",
+        "account_page": "https://atomscan.com/secret-network/accounts/${accountAddress}"
       }
     ]
   },
@@ -21712,7 +21863,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/lum-network",
-        "tx_page": "https://atomscan.com/lum-network/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/lum-network/transactions/${txHash}",
+        "account_page": "https://atomscan.com/lum-network/accounts/${accountAddress}"
       }
     ]
   },
@@ -22455,7 +22607,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/injective",
-        "tx_page": "https://atomscan.com/injective/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/injective/transactions/${txHash}",
+        "account_page": "https://atomscan.com/injective/accounts/${accountAddress}"
       },
       {
         "kind": "mintscan",
@@ -22604,6 +22757,12 @@
         "kind": "ping-pub",
         "url": "https://ping.pub/stafihub",
         "tx_page": "https://ping.pub/stafihub/tx/${txHash}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/stafihub",
+        "tx_page": "https://atomscan.com/stafihub/transactions/${txHash}",
+        "account_page": "https://atomscan.com/stafihub/accounts/${accountAddress}"
       }
     ],
     "logo_URIs": {
@@ -22743,7 +22902,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/vidulum",
-        "tx_page": "https://atomscan.com/vidulum/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/vidulum/transactions/${txHash}",
+        "account_page": "https://atomscan.com/vidulum/accounts/${accountAddress}"
       },
       {
         "kind": "Nodine Explorer",
@@ -22963,7 +23123,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/emoney",
-        "tx_page": "https://atomscan.com/emoney/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/emoney/transactions/${txHash}",
+        "account_page": "https://atomscan.com/emoney/accounts/${accountAddress}"
       }
     ]
   },
@@ -23129,6 +23290,12 @@
         "kind": "Nodine Explorer",
         "url": "https://explorer.co.id/orai",
         "tx_page": "https://explorer.co.id/orai/tx/${txHash}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/orai",
+        "tx_page": "https://atomscan.com/orai/transactions/${txHash}",
+        "account_page": "https://atomscan.com/orai/accounts/${accountAddress}"
       }
     ]
   },
@@ -24072,7 +24239,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/iris-network",
-        "tx_page": "https://atomscan.com/iris-network/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/iris-network/transactions/${txHash}",
+        "account_page": "https://atomscan.com/iris-network/accounts/${accountAddress}"
       }
     ]
   },
@@ -24522,6 +24690,12 @@
         "url": "https://www.mintscan.io/passage",
         "tx_page": "https://www.mintscan.io/passage/txs/${txHash}",
         "account_page": "https://www.mintscan.io/passage/account/${accountAddress}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/passage",
+        "tx_page": "https://atomscan.com/passage/transactions/${txHash}",
+        "account_page": "https://atomscan.com/passage/accounts/${accountAddress}"
       }
     ],
     "logo_URIs": {
@@ -25127,7 +25301,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/juno",
-        "tx_page": "https://atomscan.com/juno/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/juno/transactions/${txHash}",
+        "account_page": "https://atomscan.com/juno/accounts/${accountAddress}"
       },
       {
         "kind": "TC Network",
@@ -25251,6 +25426,11 @@
           "id": "c4168cce14ec32e067cf153a08a1b85be881e25a",
           "address": "seeds.whispernode.com:18556",
           "provider": "WhisperNode🤐"
+        },
+        {
+          "id": "27b6d74c8408e033e2e5a9e966a0d15782e33596",
+          "address": "seeds.nethernode.xyz:18556",
+          "provider": "carbonZERO🌲"
         }
       ],
       "persistent_peers": [
@@ -25761,6 +25941,11 @@
           "id": "8f75bd347c90fbaa2c96eb187a413bb3751b3a7e",
           "address": "seeds.whispernode.com:15956",
           "provider": "WhisperNode🤐"
+        },
+        {
+          "id": "27b6d74c8408e033e2e5a9e966a0d15782e33596",
+          "address": "seeds.nethernode.xyz:15956",
+          "provider": "carbonZERO🌲"
         }
       ],
       "persistent_peers": [
@@ -26015,6 +26200,12 @@
         "kind": "TC Network",
         "url": "https://explorer.tcnetwork.io/teritori",
         "tx_page": "https://explorer.tcnetwork.io/teritori/transaction/${txHash}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/teritori",
+        "tx_page": "https://atomscan.com/teritori/transactions/${txHash}",
+        "account_page": "https://atomscan.com/teritori/accounts/${accountAddress}"
       }
     ]
   },
@@ -26415,6 +26606,12 @@
         "kind": "tcnetwork",
         "url": "https://rebus.tcnetwork.io",
         "tx_page": "https://rebus.tcnetwork.io/transaction/${txHash}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/rebus",
+        "tx_page": "https://atomscan.com/rebus/transactions/${txHash}",
+        "account_page": "https://atomscan.com/rebus/accounts/${accountAddress}"
       }
     ]
   },
@@ -26674,7 +26871,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/terra2",
-        "tx_page": "https://atomscan.com/terra/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/terra2/transactions/${txHash}",
+        "account_page": "https://atomscan.com/terra2/accounts/${accountAddress}"
       },
       {
         "kind": "finder",
@@ -26776,6 +26974,11 @@
           "id": "f6c5d2bf222699a35968e5f262baacd6c34e261c",
           "address": "seeds.whispernode.com:17556",
           "provider": "WhisperNode🤐"
+        },
+        {
+          "id": "27b6d74c8408e033e2e5a9e966a0d15782e33596",
+          "address": "seeds.nethernode.xyz:17556",
+          "provider": "carbonZERO🌲"
         }
       ],
       "persistent_peers": [
@@ -26931,6 +27134,10 @@
         {
           "address": "https://jackal.api.silknodes.io",
           "provider": "Silk Nodes"
+        },
+        {
+          "address": "https://rest-jackal.carbonZERO.zone:443",
+          "provider": "carbonZERO🌲"
         }
       ],
       "grpc": [
@@ -27188,7 +27395,8 @@
       {
         "kind": "atomscan",
         "url": "https://atomscan.com/regen-network",
-        "tx_page": "https://atomscan.com/regen-network/transactions/${txHash}"
+        "tx_page": "https://atomscan.com/regen-network/transactions/${txHash}",
+        "account_page": "https://atomscan.com/regen-network/accounts/${accountAddress}"
       }
     ],
     "logo_URIs": {
@@ -27422,6 +27630,12 @@
         "kind": "explorer.ChainTools",
         "url": "https://explorer.chaintools.tech/firmachain",
         "tx_page": "https://explorer.chaintools.tech/firmachain/tx/${txHash}"
+      },
+      {
+        "kind": "atomscan",
+        "url": "https://atomscan.com/firmachain",
+        "tx_page": "https://atomscan.com/firmachain/transactions/${txHash}",
+        "account_page": "https://atomscan.com/firmachain/accounts/${accountAddress}"
       }
     ]
   },
@@ -27588,8 +27802,9 @@
       },
       {
         "kind": "atomscan",
-        "url": "https://atomscan.com/certik",
-        "tx_page": "https://atomscan.com/certik/transactions/${txHash}"
+        "url": "https://atomscan.com/shentu",
+        "tx_page": "https://atomscan.com/shentu/transactions/${txHash}",
+        "account_page": "https://atomscan.com/shentu/accounts/${accountAddress}"
       },
       {
         "kind": "bigdipper",
