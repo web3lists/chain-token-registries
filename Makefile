@@ -20,9 +20,13 @@ tokens/cardano-mainnet.json: workdir/
 	git -C workdir/cardano-token-registry pull || git clone https://github.com/cardano-foundation/cardano-token-registry.git workdir/cardano-token-registry
 	cat workdir/cardano-token-registry/mappings/*.json | jq -s '.' > tokens/cardano-mainnet.json
 
+tokens/ethereum-mainnet.json:
+	git -C workdir/ethereum-tokens pull || git clone https://github.com/ethereum-lists/tokens.git workdir/ethereum-tokens
+	cat workdir/ethereum-tokens/tokens/eth/*.json | jq -s '.' > tokens/ethereum-mainnet.json
+
 chains: chains/cosmos.json chains/substrate.json chains/evm.json 
 
-tokens: tokens/cardano-mainnet.json
+tokens: tokens/cardano-mainnet.json tokens/ethereum-mainnet.json
 
 all: chains tokens
 
